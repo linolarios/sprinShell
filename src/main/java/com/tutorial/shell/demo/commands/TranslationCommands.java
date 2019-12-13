@@ -11,8 +11,8 @@ public class TranslationCommands {
 
 
     @ShellMethod("This is a custom command.")
-    public void sayHello(@ShellOption(help = "id") String brandId,
-                                @ShellOption(help = "param") String subscriberId) {
+    public void sayHello(@ShellOption(help = "id") String id,
+                                @ShellOption(help = "param") String param) {
         System.out.println("hello world");
     }
 
