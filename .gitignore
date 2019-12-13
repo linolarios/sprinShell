@@ -1,0 +1,15 @@
+.maven
+mvnw
+mvnw.cmd
+build/
+*.iml
+*.ipr
+*.iws
+*.log
+*.md
+**/*.log
+.idea/
+target/
+
+
+
